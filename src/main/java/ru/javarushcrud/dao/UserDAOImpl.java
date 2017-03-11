@@ -32,9 +32,8 @@ public class UserDAOImpl implements UserDAO{
 
     @Override
     public void deleteUser(int id) {
-        Session session = sessionFactory.getCurrentSession();
-        User user = (User) session.load(User.class, id);
-        if (user!=null) session.delete(user);
+        User user = getUser(id);
+        if (user!=null) sessionFactory.getCurrentSession().delete(user);
     }
 
     @Override
