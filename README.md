@@ -6,6 +6,6 @@ CRUD Тестовое задание для участия в онлайн ст�
 - Maven
 - Spring
 - Hibernate
-- Tomcat 8
+- Tomcat
 - MySQL
 - Spring MVC
