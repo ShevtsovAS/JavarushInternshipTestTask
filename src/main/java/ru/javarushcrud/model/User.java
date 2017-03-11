@@ -55,16 +55,8 @@ public class User {
         this.age = age;
     }
 
-    public boolean isAdmin() {
-        return isAdmin;
-    }
-
     public boolean isIsAdmin() {
         return isAdmin;
-    }
-
-    public void setAdmin(boolean admin) {
-        isAdmin = admin;
     }
 
     public void setIsAdmin(boolean admin) {
